@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Netto Demo: Rooms</title>
+</head>
+<body>
+	<h1>Welcome </h1>
+
+	<table>
+		<caption>Our Rooms</caption>
+		<tr>
+			<td>Room</td>
+			<td>Room Number</td>
+			<td>Bed Info</td>
+		</tr>
+		
+		<tr th:each="room: ${lsRoom}">
+            <td th:text="${room.roomId}">ID</td>
+            <td th:text="${room.roomName}">Room Name</td>
+            <td th:text="${room.roomNumber}">Room Number</td>
+            <td th:text="${room.bedInfo}">Room Name</td>
+        </tr>
+		
+	</table>
+</body>
+</html>
