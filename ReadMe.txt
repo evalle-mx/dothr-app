@@ -24,3 +24,6 @@ http://localhost:8080/viewrooms
 1. Activate com.h2database Dependency [pom.xml]
 2. Comment DB properties in application.properties
 
+
+(added to git + eclipse)
+
