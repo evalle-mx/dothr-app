@@ -1,4 +1,4 @@
-package net.dothr.app.web;
+package net.dothr.app.rest;
 
 import java.util.Date;
 import java.util.List;
