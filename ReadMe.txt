@@ -19,6 +19,9 @@ Web page:
 http://localhost:8080/viewrooms
 
 
+Web Service:
+http://localhost:8080/api/rooms?nombre=Victoria
+
 
 *** TO alternate from Embedded to Remote persistence ****
 1. Activate com.h2database Dependency [pom.xml]

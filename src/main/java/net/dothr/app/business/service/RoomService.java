@@ -27,7 +27,7 @@ public class RoomService {
 		System.out.println("<getRoomsByName>");
 		
 		if(null==name || name.length()<1) {
-			name="Manchester";
+			name="Toronto";
 		}
 		System.out.println("name: " + name);
 		Iterable<Room> rooms = this.roomRep.findReservationByName(name);
